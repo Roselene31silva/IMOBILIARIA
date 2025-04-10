@@ -7,8 +7,8 @@ function fnIdiomaPortuges(){
 
 function fnIdiomaIngles(){
     document.getElementById("menu1").innerText = "Home";
-    document.getElementById("menu2").innerText = "";
-    document.getElementById("menu3").innerText = "";
+    document.getElementById("menu2").innerText = "Propreties";
+    document.getElementById("menu3").innerText = "About Us";
     document.getElementById("menu4").innerText = "Contact";
 }
 
@@ -23,14 +23,14 @@ function fnMostrarHoraAtual(){
 }
 
 function fnRegistrarContato(){
-    let nome = document.getElementById("nome").value
-    let email = document.getElementById("email").value
-    let mensagem = document.getElementById("mensagem").value
-    let informaçõesCompleta = nome + "-" = email + "br" + mensagem
-    document.getElementById("informações"). innerHTML = informaçõesCompleta
+    // let nome = document.getElementById("nome").value
+    // let email = document.getElementById("email").value
+    // let mensagem = document.getElementById("mensagem").value
+    // let informaçõesCompleta = nome + "-" = email + "br" + mensagem
+    // document.getElementById("informações"). innerHTML = informaçõesCompleta
 
-    Document.getElementById("nome").value = ""
-    Document.getElementById("email").value = ""
-    Document.getElementById("mensagem").value = ""
-    Document.getElementById("").value = ""
+    // Document.getElementById("nome").value = ""
+    // Document.getElementById("email").value = ""
+    // Document.getElementById("mensagem").value = ""
+    // Document.getElementById("").value = ""
 }
